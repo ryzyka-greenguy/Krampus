@@ -11,7 +11,7 @@
 local G2L = {};
 
 -- StarterGui.KrampusV2
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"] = Instance.new("ScreenGui", game:WaitForChild("CoreGui")
 G2L["1"]["Name"] = [[KrampusV2]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
